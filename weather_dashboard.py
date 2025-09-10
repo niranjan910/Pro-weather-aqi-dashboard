@@ -10,10 +10,11 @@ import requests
 import pandas as pd
 import plotly.express as px
 import json
+import os
 
 # ================= CONFIG =================
 
-DATA_FILE_PATH = r"E:\Data Science 2025\9. Python Project\1. Weather Forecast Project\Data\city.list.json"
+DATA_FILE_PATH = os.path.join("Data", "city.list.json")
 
 API_KEY = "10b0b3741256c3d840ad164ba3cba2c8"  # <-- Your API key
 
